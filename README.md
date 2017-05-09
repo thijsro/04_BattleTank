@@ -1,5 +1,5 @@
 # 04_BattleTank
 Tankgame tutorial
 
-##lecturelist:
+# lecturelist:
 * BT004 Setting up REPO.
