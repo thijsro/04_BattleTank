@@ -2,8 +2,9 @@
 
 #pragma once
 
+#include "TankAimingComponent.h"
 #include "GameFramework/Pawn.h"
-#include "Tank.generated.h"
+#include "Tank.generated.h" // paste new includes above
 
 UCLASS()
 class BATTLETANK_04_API ATank : public APawn
@@ -11,7 +12,10 @@ class BATTLETANK_04_API ATank : public APawn
 	GENERATED_BODY()
 
 public:
-	void AimAt(FVector Hitlocation);
+	void AimAt(FVector HitLocation);
+
+protected:
+	UTankAimingComponent* TankAimingComponent = nullptr;
 
 
 private:
