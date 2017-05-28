@@ -2,11 +2,12 @@
 
 #pragma once
 
-#include "TankAimingComponent.h"
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h" // paste new includes above
 
-class UTankBarrel; //forward declaration
+ //forward declaration
+class UTankBarrel;
+class UTankAimingComponent;
 
 UCLASS()
 class BATTLETANK_04_API ATank : public APawn
